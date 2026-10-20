@@ -54,7 +54,28 @@
        text-decoration: underline;
        
     }
+
+    .span-example
+    {
+        color: red;
+        margin-left: 12px;
+    } 
  
+    .span-example:hover
+    {
+        text-decoration: underline; 
+    }
+
+    .shop-link
+    {
+        cursor: pointer;
+    }
+
+
+    .shop-link:hover
+    {
+        text-decoration: underline;
+    }
  /* text element is an element  that is insdie of a line of text and they essentially exist inside a  */
 
 
@@ -78,14 +99,14 @@
     Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!   
 </p>
 
-<p class="Apple-text">
+<p class="apple-text">
 Shop early for the best selection of holiday 
-favourites.<br> Shop now &gt;
+favourites.<span class="shop-link">Shop now &gt;</span> 
 </p>
 
 <p>
-Shop early for the <strong>best selection</strong>best selection of holiday 
-favourites.Shop now  
+    Shop early for the <strong>best selection</strong>best selection of <u>holiday</u>
+f   avourites.<span class="span-example">Shop now </span>
 </p>
 
 <!-- /* font-family: Arial;
@@ -93,3 +114,10 @@ favourites.Shop now
         font-weight: bold;
         font-style: italic;
         text-align: center; */ -->
+
+
+
+        <!-- IMPORTANT 
+    General Technique
+    1. Create element with HTML
+    2. Sytyle with CSS one-by-one -->
