@@ -5,24 +5,49 @@
         <style>
             .thumbnail{
                 width: 300px;
-
+                display:block
             }
             .search-bar{
                 font-size: 20px;
                 margin-left: 12px ;
             }
+
+            .video-title{
+                width: 300px;
+            }
+
+            .video-author,
+            .video-stats{
+                display: inline-block;
+            }
+
         </style>
     </head>
     <body>
-        <img src="thumbnails/thumbnail-1.webp">
-        <input type="text" 
+        <input class="search-bar" type="text"
         placeholder="Search">
+        <img src="thumbnails/thumbnail-1.webp">
+        
 
-        <p>
-            Taling Tech with AHERE
+        <p class="video-title">
+            
+            Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
          </p>
-        <p>
-
+        <p class="video-author">
+            Marques Brownlee
         </p>
+        <p class="video-stats">
+            3.4M views &#124; 6 months ago
+        </p>
+        <div>
+            this is a dev
+        </div>
     </body>
 </html>
+
+<!-- Block element is takes up the entire line  -->
+ <!-- inline-block element is only takes up as much space as needed-->
+  <!-- inline element appear within a line of text -->
+   <!-- a common , means that we are going to targe both the video author class
+    and the video sates class of styles-->
+    <!-- <div> is divison and it means just a box-->
